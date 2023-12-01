@@ -28,7 +28,7 @@ export default function TokenSelectorBox({ type }) {
                             <p>{isFromType()
                                 ? "Pay"
                                 : "Receive"}</p>
-                                <TokenSelectionDropdown/>
+                                <TokenSelectionDropdownFrom/>
                         </div>
                         <h2 className="amount">
                             <input
