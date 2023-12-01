@@ -1,0 +1,29 @@
+@media only screen and (max-width: 1025px) {
+    .mobileHeader {
+        padding: 16px;
+    }
+    
+    .mobileHeaderCenter {
+        padding: 16px 0;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    body.activeMobileMenu {
+        overflow: hidden;
+    }
+
+    .closeNav {
+        display: none;
+    }
+
+    body.activeMobileMenu img.openNav {
+        display: none;
+    }
+
+    body.activeMobileMenu img.closeNav {
+        display: block;
+    }
+    
+}
